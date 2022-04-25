@@ -2,7 +2,6 @@
 
 body  {
   font-family: 'Josefin Sans', sans-serif;
-  color: black;
 }
 main {
   background-color: mediumaquamarine;
@@ -11,8 +10,6 @@ main {
   margin: auto;
   display: flex;
   align-items: center;
-  transform: rotate(-0.05turn);
-  transform: skew(0deg, -10deg);
 }
 
 main > div {

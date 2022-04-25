@@ -28,16 +28,20 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {top-left} <--rotate top left to bottom right-->
+  to {bottom-right}
 }
 
 @keyframes middle {
-  from {}
+  from {} <--make disappear-->
   to {}
 }
 
 @keyframes bottom {
-  from {}
+  from {} <--rotate bottom left to top right-->
   to {}
+}
+
+@keyframes .middle:hover {
+  opacity: 1;
 }
