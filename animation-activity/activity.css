@@ -28,20 +28,16 @@ nav {
 }
 
 @keyframes top {
-  from {top-left} <--rotate top left to bottom right-->
-  to {bottom-right}
+  from { transform: rotate(0deg); }
+  to {transform: translateY(35px) rotate(55deg); }          /*<--rotate top left to bottom right-->*/
 }
 
 @keyframes middle {
-  from {} <--make disappear-->
-  to {}
+  from { opacity: 1; } /*<--make disappear-->*/
+  to { opacity: 0; }
 }
 
 @keyframes bottom {
-  from {} <--rotate bottom left to top right-->
-  to {}
-}
-
-@keyframes .middle:hover {
-  opacity: 1;
+  from { transform: rotate(0deg); } /*<--rotate bottom left to top right-->*/
+  to { transform: translateY(-35px) rotate(-55deg); }
 }
